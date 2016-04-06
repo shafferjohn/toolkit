@@ -4,10 +4,10 @@ launch with params, like:<br>
 > the filename of this script is mts.py<br>
 > `-d` means which folder (all files in it) do you search<br>
 > `-s` means what do you search for<br>
-> `-t` thread count<br>
+> `-t` process count<br>
 and then it will output the line no. and the content of the line.<br>
 
-About thread count<br>
+About process count<br>
 Recommend for SSD: thread counts of all your cpu(s),<br>
 e.g 4 cores and 8 thread counts, use the number 8.<br>
 Recommend for HDD: 2 or 4<br>
@@ -28,8 +28,8 @@ By [Shaffer John][1]<br>
 > `-t` 线程数<br>
 输出行数和所在行的内容<br>
 <br>
-线程数<br>
-固态硬盘建议填CPU线程数<br>
+进程数<br>
+固态硬盘建议填CPU的线程数<br>
 机械硬盘不要填太大，并发IO数太多反而更慢<br>
 <br>
 **你可以任意修改此脚本<br>
