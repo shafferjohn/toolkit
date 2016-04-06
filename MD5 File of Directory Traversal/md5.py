@@ -25,7 +25,7 @@ for op, value in opts:
 		output = value
 
 filepaths=list()
-f = open('test.txt', 'a')
+f = open(output, 'a')
 
 for dirpath, dirnames, filenames in os.walk(folderpath):
 	for filename in filenames:
